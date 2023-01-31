@@ -9,7 +9,10 @@ print("Area del triangulo")
 b= int(input("ingrese la base:"))
 h= int(input("ingrese  la altura:"))
 l1= int(input("ingrese la media del lado:"))
-A= (b*h)/2
-p=l1*3
+l2= int(input("ingrese la media del lado 2:"))
+l3 = int(input("ingrese la media del lado 3:"))
+a= (b*h)/2
+p=l1+l2+l3 
 print("perimetro: ", p)
-print("Area: ", A )             
+print("Area: ", a )     
+
